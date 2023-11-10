@@ -1,31 +1,70 @@
 .friendMessage {
-
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    align-items: flex-end;
+    gap: 13px
 }
 
 .friendImageAndText img {
-
+    width: 48px;
+    height: 48px;
 }
 
 .friendText {
-
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3px;
+    min-height: 60px;
+    padding: 2px 13px;
+    background-color: #F5F7FB;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03);
+    fill: #F5F7FB;
 }
 
 .friendText:after {
-
+    content: '';
+    z-index: -1;
+    position: absolute; /* Абсолютное позиционирование */
+    left: -9px;
+    bottom: 0; /* Положение треугольника */
+    border: 13px solid transparent;
+    border-bottom: 13px solid #F5F7FB;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03);
 }
 
 .friendName {
-
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .friendMessageText {
-
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .friendTime {
-
+    padding: 0 11px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
