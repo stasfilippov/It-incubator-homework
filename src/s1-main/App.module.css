@@ -2,7 +2,8 @@
     --header_height: 60px;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 131px 0 216px 0;
+    padding: 0 0 216px 0;
+    position: relative;
 }
 
 .hw {
@@ -15,10 +16,15 @@
 }
 
 .hwTitle {
+    padding: 47px 70px 10px;
     color: #000;
     font-family: Montserrat;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.hw1_wrapper {
+    padding-top: 60px;
 }
