@@ -1,9 +1,22 @@
 .select {
+    width: 180px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .select:focus {
+    outline: none;
 }
 
 
 .option:hover {
+    background-color: #1E90FF;
 }
