@@ -1,0 +1,8 @@
+.layout_container {
+    display: flex;
+    flex-direction: column;
+}
+.pages_container{
+    height: 100vh;
+    flex-grow: 1;
+}
