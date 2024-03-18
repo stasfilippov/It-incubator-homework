@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/It-incubator-homework/static/css/main.13011fe0.css",
-    "main.js": "/It-incubator-homework/static/js/main.43b58e54.js",
+    "main.css": "/It-incubator-homework/static/css/main.c7d6319c.css",
+    "main.js": "/It-incubator-homework/static/js/main.ea436c15.js",
     "static/js/787.66cb4309.chunk.js": "/It-incubator-homework/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/It-incubator-homework/static/media/avatar.d947cb9d0d13765666b6.png",
-    "static/media/404.svg": "/It-incubator-homework/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
-    "static/media/closeOutline.svg": "/It-incubator-homework/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/404.svg": "/It-incubator-homework/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
+    "static/media/closeOutline.svg": "/It-incubator-homework/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
     "index.html": "/It-incubator-homework/index.html",
-    "static/media/checked.svg": "/It-incubator-homework/static/media/checked.b75ca55e8759862b4083.svg",
-    "static/media/burger.svg": "/It-incubator-homework/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.13011fe0.css.map": "/It-incubator-homework/static/css/main.13011fe0.css.map",
-    "main.43b58e54.js.map": "/It-incubator-homework/static/js/main.43b58e54.js.map",
+    "static/media/checked.svg": "/It-incubator-homework/static/media/checked.0b6a1bcf5d417ff0a947.svg",
+    "static/media/burger.svg": "/It-incubator-homework/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
+    "main.c7d6319c.css.map": "/It-incubator-homework/static/css/main.c7d6319c.css.map",
+    "main.ea436c15.js.map": "/It-incubator-homework/static/js/main.ea436c15.js.map",
     "787.66cb4309.chunk.js.map": "/It-incubator-homework/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13011fe0.css",
-    "static/js/main.43b58e54.js"
+    "static/css/main.c7d6319c.css",
+    "static/js/main.ea436c15.js"
   ]
 }
