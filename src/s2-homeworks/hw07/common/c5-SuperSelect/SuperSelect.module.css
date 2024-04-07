@@ -1,22 +1,31 @@
 .select {
-    width: 180px;
-    height: 25px;
+    width: 171px;
+    height: 36px;
     border-radius: 2px;
-    border: 1px solid #000;
-    background: #FFF;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
+    border: 1px solid inherit;
+    background: transparent;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    line-height: normal;
+    font-size: 14px;
+    color: inherit;
 }
 
 .select:focus {
     outline: none;
 }
 
+.option {
+    color: black;
+    background: transparent;
+}
 
 .option:hover {
     background-color: #1E90FF;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: inherit;
 }

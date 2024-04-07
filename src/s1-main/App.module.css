@@ -1,6 +1,6 @@
 .App {
     --header_height: 60px;
-    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 0 216px 0;
     position: relative;
@@ -12,12 +12,13 @@
     padding: 24px 70px;
     display: flex;
     flex-direction: column;
-    gap: 27px;
+    gap: 6px;
+    color: inherit;
 }
 
 .hwTitle {
     padding: 47px 70px 10px;
-    color: #000;
+    color: inherit;
     font-family: Montserrat;
     font-size: 22px;
     font-style: normal;
