@@ -1,11 +1,24 @@
 .pagination {
-    display: flex;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
-.text1 {
-
+.pagination nav ul li {
+	margin-right: 10px;
 }
 
+.text1,
 .text2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #0d0b0c;
+}
 
+.select {
+	border: 1px solid #ecebeb;
+	border-radius: 2px;
+	width: 39px;
+	height: 24px;
 }
