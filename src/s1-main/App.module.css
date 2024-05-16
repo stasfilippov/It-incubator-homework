@@ -1,32 +1,39 @@
 .App {
-    --header_height: 60px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 0 216px 0;
-    position: relative;
+	--header_height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0 216px 0;
+	position: relative;
 }
 
 .hw {
-    border-top: 1px solid #D9D9D9;
-    border-bottom: 1px solid #D9D9D9;
-    padding: 24px 70px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    color: inherit;
+	border-top: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 24px 70px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	color: inherit;
+	position: relative;
 }
 
 .hwTitle {
-    padding: 47px 70px 10px;
-    color: inherit;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+	padding: 47px 70px 10px;
+	color: inherit;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
 }
 
 .hw_wrapper_custom {
-    padding-top: 60px;
+	padding-top: 60px;
 }
 
+.text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: inherit;
+}

@@ -1,31 +1,24 @@
 .select {
-    width: 171px;
-    height: 36px;
-    border-radius: 2px;
-    border: 1px solid inherit;
-    background: transparent;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: inherit;
+	width: 171px;
+	height: 36px;
+	border-radius: 2px;
+	border: 1px solid inherit;
+	background: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: inherit;
 }
 
 .select:focus {
-    outline: none;
+	outline: none;
 }
 
 .option {
-    color: black;
-    background: transparent;
+	color: black;
+	background: transparent;
 }
 
 .option:hover {
-    background-color: #1E90FF;
-}
-
-.text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: inherit;
+	background-color: #1e90ff;
 }
