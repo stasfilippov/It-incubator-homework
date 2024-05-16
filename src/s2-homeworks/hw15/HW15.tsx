@@ -1,3 +1,4 @@
+import { Backdrop, CircularProgress } from '@mui/material'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
@@ -7,10 +8,10 @@ import SuperPagination from './common/c9-SuperPagination/SuperPagination'
 import s from './HW15.module.css'
 
 /*
-! 1 - дописать SuperPagination
-! 2 - дописать SuperSort
-! 3 - проверить pureChange тестами
-! 3 - дописать sendQuery, onChangePagination, onChangeSort в HW15
+* 1 - дописать SuperPagination
+* 2 - дописать SuperSort
+* 3 - проверить pureChange тестами
+* 3 - дописать sendQuery, onChangePagination, onChangeSort в HW15
 ! 4 - сделать стили в соответствии с дизайном
 ! 5 - добавить HW15 в HW5/pages/JuniorPlus
 * */
@@ -50,31 +51,39 @@ const HW15 = () => {
 	const sendQuery = (params: any) => {
 		setLoading(true)
 		getTechs(params).then(res => {
+			if (res) {
+				setTechs(res.data.techs)
+				setTotalCount(res.data.totalCount)
+			}
 			// делает студент
 			// сохранить пришедшие данные
-			//
+			setLoading(false)
 		})
 	}
 
 	const onChangePagination = (newPage: number, newCount: number) => {
 		// делает студент
-
 		setPage(newPage)
 		setCount(newCount)
-
-		// sendQuery(
-		// setSearchParams(
-
+		sendQuery({ sort, page: newPage, count: newCount })
+		setSearchParams({
+			sort: `${sort}`,
+			page: `${newPage}`,
+			count: `${newCount}`,
+		})
 		//
 	}
 
 	const onChangeSort = (newSort: string) => {
 		// делает студент
-		// setSort(
-		// setPage(1) // при сортировке сбрасывать на 1 страницу
-		// sendQuery(
-		// setSearchParams(
-		//
+		setSort(newSort)
+		setPage(1) // при сортировке сбрасывать на 1 страницу
+		sendQuery({ sort: newSort, page, count })
+		setSearchParams({
+			sort: `${newSort}`,
+			page: `${page}`,
+			count: `${count}`,
+		})
 	}
 
 	useEffect(() => {
@@ -101,11 +110,18 @@ const HW15 = () => {
 			<div className={s2.hwTitle}>Homework #15</div>
 
 			<div className={s2.hw}>
-				{idLoading && (
-					<div id={'hw15-loading'} className={s.loading}>
-						Loading...
-					</div>
-				)}
+				<div id={'hw15-loading'} className={s.loading}>
+					<Backdrop
+						open={idLoading}
+						sx={{
+							position: 'absolute',
+							zIndex: 'drawer',
+							backgroundColor: 'rgba(0, 0, 0, 0.25)',
+						}}
+					>
+						<CircularProgress color='primary' />
+					</Backdrop>
+				</div>
 
 				<SuperPagination
 					page={page}
