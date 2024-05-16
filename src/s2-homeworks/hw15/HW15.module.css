@@ -1,19 +1,46 @@
-.tech {
-	width: 50vw;
-}
-
+.tech,
 .developer {
+	width: 50vw;
+	padding: 11px 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #000;
 }
 
 .techHeader {
 	width: 50vw;
+	display: flex;
+	align-items: center;
+	background-color: #e5e5e5;
+	padding: 11px 17px;
+}
+
+.techHeader div,
+.developerHeader div {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #000;
 }
 
 .developerHeader {
+	width: 50vw;
+
+	display: flex;
+	align-items: center;
+	background-color: #e5e5e5;
+	padding: 11px 17px;
 }
 
 .row {
 	display: flex;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.row:last-child {
+	border-bottom: none;
 }
 
 .rowHeader {
